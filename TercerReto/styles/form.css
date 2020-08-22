@@ -1,0 +1,9 @@
+form {
+    padding: 20px;
+    border: 5px solid black;
+}
+
+input:focus {
+    color: blue;
+    background: yellow;
+}
