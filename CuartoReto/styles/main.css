@@ -1,0 +1,38 @@
+header {
+    width: 1440px;
+    height: 900px;
+    background-color: lightgreen;
+}
+
+h1 {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+
+.SobreMi {
+    background: lightblue;
+}
+    
+.MisSkills {
+    background: purple;
+}
+
+.Portafolio {
+    background: yellow;
+}
+
+.Clientes {
+    background: grey;
+}
+
+.Contacto {
+    background: rgba(8, 83, 24, 0.808);
+}
+
+
+p .Parrafo {
+    color: white;
+    text-align: justify;
+}
+
