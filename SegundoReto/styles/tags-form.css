@@ -1,0 +1,20 @@
+h1 {
+    font-style: Verdana;
+    color: purple;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 700;
+}
+
+dt {
+    color: red;
+    font-weight: 500;
+}
+
+dd {
+    color: blue;
+    font-weight: lighter;
+}
