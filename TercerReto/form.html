@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de HTML5</title>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Nombre</legend>
+            <input type="text" placeholder="Nombre" required pattern="[a-zA-Z]*">
+        </fieldset>
+
+        <fieldset>
+            <legend>Apellido</legend>
+            <input type="text" placeholder="Apellido" required pattern="[a-zA-Z]*">
+        </fieldset>
+
+        <fieldset>
+            <legend>Edad</legend>
+            <input type="number" placeholder="Edad (de 18 a 80)" required min="18" max="80">
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="text" placeholder="Sexo (masculino o femenino)" required pattern="masculino|femenino">
+        </fieldset>
+
+        <fieldset>
+            <legend>DNI</legend>
+            <input type="text" placeholder="DNI (min. 8 caracteres)" required pattern="[a-zA-Z0-9]{8,}">
+        </fieldset>
+
+        <fieldset>
+            <legend>Email</legend>
+            <input type="email" placeholder="Email" required>
+        </fieldset>
+
+        <fieldset>
+            <button>Enviar</button>
+        </fieldset>
+
+    </form>
+    
+</body>
+
+</html>
